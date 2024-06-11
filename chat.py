@@ -10,7 +10,7 @@ load_dotenv()
 def bot():
     bot = tx.init()
     bot.setProperty('rate', 150)
-    bot.say("Hello I'm Rashmin. What can I do for you")
+    bot.say("Hello I'm ChatAlpha. What can I do for you")
     bot.runAndWait()
 
 
